@@ -145,7 +145,7 @@ nav {
   text-decoration: none;
   color: rgb(248, 248, 248);
   background-color: rgb(93, 93, 243);
-  padding: 10px 45px;
+  padding: 10px 15px;
   border-radius: 5px;
 }
 
@@ -279,4 +279,77 @@ nav {
 .porfolio_menu ul li:hover {
   color: rgb(93, 93, 243);
   cursor: pointer;
+}
+
+.portfolio_card {
+  /* background-color: rgb(5, 10, 14); */
+  border-radius: 15px;
+  position: relative;
+}
+
+.porfolio_image {
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.porfolio_image img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.portfolio_heading p {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.portfolio_sub_heading {
+  display: flex;
+  justify-content: center;
+  line-height: 10px;
+}
+
+.portfolio_sub_heading p {
+  font-weight: 300;
+}
+
+.view_project_btn a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  background-color: rgb(93, 93, 243);
+  padding: 15px 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Testom */
+.testomonials_heading p {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.testomonials_discription p {
+  color: grey;
+}
+.testomonials {
+  line-height: 20px;
+}
+
+.testomonials_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel {
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-carousel .item {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(19, 18, 18);
 }

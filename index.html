@@ -15,6 +15,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/blobz.min.css">
 
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Owl Carousel2 -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -297,7 +304,7 @@
     <!-- My Portfolio -->
 
     <div class="container pt-5">
-        <div class="my_portfolio_section pt-5">
+        <div class="my_portfolio_section mb-5 pt-5">
             <div class="portfolio">
                 <div class="portfolio_heading">
                     <p>Porfolio</p>
@@ -319,25 +326,176 @@
 
             <!-- Portfolio items -->
             <div class="row">
-                <div class="col-md-4">
+                <!-- Foreach loop strat from here -->
+
+                <div class="col-md-4 col-6">
                     <div class="portfolio_card">
 
                         <div class="porfolio_image">
+                            <img src="img/Hawthrone.png" alt="" height="100%" width="100%">
 
+                            <div class="overlay">
+
+                            </div>
                         </div>
-                        <div class="portfolio_heading">
+                        <div class="portfolio_sub_heading">
+                            <div class="row">
+                                <p class="col-12 d-flex justify-content-center">Hawthrone Signature</p>
 
+                                <div class="col-12 mb-3 view_project_btn d-flex justify-content-center">
+                                    <a href="http://hawthorne.epizy.com/">View Project <i
+                                            class="fa-solid fa-arrow-right" style="padding-left: 10px;"></i></a>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="porfolio_description">
-
-                        </div>
-
-                        <div class="view_project_btn">
-
-                        </div>
-
                     </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="portfolio_card">
+
+                        <div class="porfolio_image">
+                            <img src="img/resturent.png" alt="" height="100%" width="100%">
+
+                            <div class="overlay">
+
+                            </div>
+                        </div>
+                        <div class="portfolio_sub_heading">
+                            <div class="row">
+                                <p class="col-12 d-flex justify-content-center">Resturent</p>
+
+                                <div class="col-12 mb-3 view_project_btn d-flex justify-content-center">
+                                    <a href="https://vimuwa96.github.io/resturent/">View Project <i
+                                            class="fa-solid fa-arrow-right" style="padding-left: 10px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="portfolio_card">
+
+                        <div class="porfolio_image">
+                            <img src="img/Pymanbell.png" alt="" height="100%" width="100%">
+
+                            <div class="overlay">
+
+                            </div>
+                        </div>
+                        <div class="portfolio_sub_heading">
+                            <div class="row">
+                                <p class="col-12 d-flex justify-content-center">Paymanbell.com</p>
+
+                                <div class="col-12 mb-3 view_project_btn d-flex justify-content-center">
+                                    <a href="https://pymanbell.com/">View Project <i class="fa-solid fa-arrow-right"
+                                            style="padding-left: 10px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-6">
+                    <div class="portfolio_card">
+
+                        <div class="porfolio_image">
+                            <img src="img/Viva.png" alt="" height="100%" width="100%">
+
+                            <div class="overlay">
+
+                            </div>
+                        </div>
+                        <div class="portfolio_sub_heading">
+                            <div class="row">
+                                <p class="col-12 d-flex justify-content-center">Viva Studio</p>
+
+                                <div class="col-12 mb-3 view_project_btn d-flex justify-content-center">
+                                    <a href="http://vivaenchanglat.epizy.com/">View Project <i
+                                            class="fa-solid fa-arrow-right" style="padding-left: 10px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="portfolio_card">
+
+                        <div class="porfolio_image">
+                            <img src="img/Medi.png" alt="" height="100%" width="100%">
+
+                            <div class="overlay">
+
+                            </div>
+                        </div>
+                        <div class="portfolio_sub_heading">
+                            <div class="row">
+                                <p class="col-12 d-flex justify-content-center">Medi Data</p>
+
+                                <div class="col-12 mb-3 view_project_btn d-flex justify-content-center">
+                                    <a href="http://medidata.epizy.com/">View Project <i class="fa-solid fa-arrow-right"
+                                            style="padding-left: 10px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="portfolio_card">
+
+                        <div class="porfolio_image">
+                            <img src="img/Screenshot 2023-10-05 181042.png" alt="" height="100%" width="100%">
+
+                            <div class="overlay">
+
+                            </div>
+                        </div>
+                        <div class="portfolio_sub_heading">
+                            <div class="row">
+                                <p class="col-12 d-flex justify-content-center">Ads Solutions</p>
+
+                                <div class="col-12 mb-3 view_project_btn d-flex justify-content-center">
+                                    <a href="https://vimuwa96.github.io/Ads-Solutions/">View Project <i
+                                            class="fa-solid fa-arrow-right" style="padding-left: 10px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Loop end here -->
+            </div>
+
+
+
+
+        </div>
+
+        <!-- My Portfolio End -->
+        <!-- Testomonials -->
+
+
+        <div class="testomonials_section pt-5">
+            <div class="testomonials">
+                <div class="testomonials_heading d-flex justify-content-center">
+                    <p>Testomonials</p>
+                </div>
+                <div class="testomonials_discription d-flex justify-content-center">
+                    <p>What my Client Says about my works</p>
+                </div>
+            </div>
+
+            <div class="testomonials_list text-center">
+                <div class="owl-carousel">
+                    <div class="item"> Clenet Comment 01 </div>
+                    <div class="item"> Clenet Comment 02</div>
+                    <div class="item"> Clenet Comment 03</div>
+                    <div class="item"> Clenet Comment 04</div>
+
                 </div>
             </div>
 
@@ -346,10 +504,47 @@
 
     </div>
 
-    <!-- My Portfolio End -->
+
+    <!-- Testomonials End-->
 
     <!-- Web tittle js -->
     <script src="js/marquee.js"></script>
+
+    <!-- Owl js -->
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 1600,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                    dots: true,
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    dots: true,
+
+                }
+            },
+
+
+
+
+
+        })
+    </script>
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
