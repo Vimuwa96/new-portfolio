@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(2, 0, 36) !important;
+  color: white !important;
+}
+
+nav {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: rgb(131, 112, 240) !important;
+}
+
+.hire_me a {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+  background-color: rgb(93, 93, 243);
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+.hire_me a:hover {
+  color: rgb(178, 169, 231);
+}
+
+.welcome {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+}
+
+.greeting {
+  display: flex;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.profession p {
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: rgb(181, 141, 218);
+}
+
+.about-me {
+  line-height: 20px;
+}
+.my_self {
+  text-align: justify;
+}
+
+.hire_download {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hireme_btn a {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+  background-color: rgb(93, 93, 243);
+  padding: 10px 45px;
+  border-radius: 5px;
+}
+
+.hireme_btn a:hover {
+  color: rgb(178, 169, 231);
+}
+
+.download_resume_btn a {
+  text-decoration: none;
+  border: 1.5px solid rgb(93, 93, 243);
+  color: rgb(93, 93, 243);
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 450;
+}
+
+.navbar-toggler span i {
+  color: rgb(212, 212, 226);
+}
+
+.about_me_heading p {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+.aboutme_discription p {
+  text-align: justify;
+  color: rgb(202, 195, 195);
+}
+
+.social_links {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.social_links a i {
+  color: rgb(221, 212, 212);
+}
+
+.social_links a i:hover {
+  color: rgb(83, 83, 214);
+  transition: 0.5s;
+}
+
+.personal-info-heading p {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.detail_list li {
+  list-style: none;
+  line-height: 40px;
+}
+
+.lets_talk {
+  display: flex;
+}
+
+.lets_talk_btn a {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  color: rgb(248, 248, 248);
+  background-color: rgb(93, 93, 243);
+  padding: 10px 45px;
+  border-radius: 5px;
+}
+
+.more_about_me a {
+  text-decoration: none;
+  border: 1.5px solid rgb(93, 93, 243);
+  color: rgb(93, 93, 243);
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 450;
+}
+
+.my_pic {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_pic img {
+  object-fit: contain;
+}
+.my_services_section {
+  line-height: 25px;
+}
+
+.my_services_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_services_heading p {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.about_services {
+  color: rgb(182, 171, 171);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(6, 4, 43);
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.service_card:hover {
+  background-color: rgb(93, 93, 243);
+  transition: 0.5s;
+}
+
+.service_card:hover #service_icon i {
+  background-color: rgb(252, 252, 255);
+  color: rgb(93, 93, 243);
+  transition: 0.5s;
+}
+
+.service_card:hover #web_icon i {
+  background-color: rgb(252, 252, 255);
+  color: rgb(93, 93, 243);
+  transition: 0.5s;
+}
+
+#service_icon i {
+  color: white;
+  align-items: center;
+  background-color: rgb(93, 93, 243);
+  padding: 25px 25px;
+  border-radius: 50%;
+}
+
+#web_icon i {
+  color: white;
+  align-items: center;
+  background-color: rgb(93, 93, 243);
+  padding: 25px 21px;
+  border-radius: 50%;
+}
+
+.service_info p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.portfolio {
+  line-height: 20px;
+}
+
+.portfolio_heading {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio_heading p {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.portfolio_discription {
+  display: flex;
+  justify-content: center;
+  color: rgb(146, 140, 140);
+}
+
+.porfolio_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.porfolio_menu ul li {
+  list-style: none;
+  display: inline-flex;
+  padding: 15px;
+}
+
+.porfolio_menu ul li:hover {
+  color: rgb(93, 93, 243);
+  cursor: pointer;
+}
