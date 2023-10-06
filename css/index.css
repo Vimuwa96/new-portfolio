@@ -461,7 +461,27 @@ nav {
   padding: 13px 40px;
   background-color: rgb(93, 93, 243);
 }
+.technolagies {
+  line-height: 20px;
+}
+
+.tech_heading p {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.tech_disc p {
+  color: grey;
+}
 
 .footer {
   height: 100vh;
+}
+
+.tech_icon img {
+  color: beige;
+  padding: 10px;
+  background-color: rgb(156, 158, 194);
+  border-radius: 50%;
 }
