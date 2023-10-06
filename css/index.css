@@ -425,7 +425,7 @@ nav {
 
 #card {
   background-color: rgb(34, 29, 67);
-  padding: 30px;
+  padding: 15px;
   border-radius: 25px;
 }
 .message_form {
@@ -435,12 +435,14 @@ nav {
 #form_card {
   background-color: rgb(34, 29, 67);
   border-radius: 25px;
+  height: 100%;
 }
 
 .name {
   background-color: transparent;
   border: 1px solid rgb(155, 155, 204);
   padding: 15px 45px;
+  width: 100%;
   border-radius: 15px;
 }
 
@@ -449,7 +451,7 @@ nav {
   border: 1px solid rgb(155, 155, 204);
   padding: 15px 45px;
   border-radius: 15px;
-  width: 95%;
+  width: 100%;
 }
 
 .send_massage a {
