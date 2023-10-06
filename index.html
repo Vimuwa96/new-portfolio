@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
+    <!-- Izitoast -->
+    <link rel="stylesheet" href="iziToast-master/css/iziToast.min.css">
+
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -43,19 +46,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link px-4" aria-current="page" href="#">Home</a>
+                            <a class="nav-link px-4" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="#">About</a>
+                            <a class="nav-link px-4" href="#aboutme">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="">Services</a>
+                            <a class="nav-link px-4" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="">Projects</a>
+                            <a class="nav-link px-4" href="#portfolio">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="">Contacts</a>
+                            <a class="nav-link px-4" href="#contact">Contacts</a>
                         </li>
                     </ul>
                     <div class="hire_me">
@@ -127,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 order-first order-md-1">
+                <div class="col-md-6 order-first order-md-1" id="aboutme">
                     <div class="about_me">
                         <div class="about_me_heading">
                             <p>About Me</p>
@@ -215,7 +218,7 @@
     <!-- My Services -->
 
     <div class="container pt-5 mb-3">
-        <div class="my_services_section">
+        <div class="my_services_section" id="services">
             <div class="my_services_heading">
                 <p>My Services</p>
             </div>
@@ -308,8 +311,8 @@
     <!-- My Portfolio -->
 
     <div class="container pt-5">
-        <div class="my_portfolio_section mb-5 pt-5">
-            <div class="portfolio">
+        <div class="my_portfolio_section mb-5 pt-5" id="portfolio">
+            <div class="portfolio" >
                 <div class="portfolio_heading">
                     <p>Porfolio</p>
                 </div>
@@ -671,8 +674,8 @@
 
 
     <!-- Contact form -->
-    <div class="container">
-        <div class="contact_section">
+    <div class="container pt-5" id="contact">
+        <div class="contact_section" >
             <div class="contact_heading d-flex justify-content-center">
                 <p>Contact</p>
             </div>
@@ -680,8 +683,6 @@
                 <p>Let's discuss your project</p>
             </div>
         </div>
-
-
 
         <div class="contact_form">
             <div class="row mb-4">
@@ -729,7 +730,7 @@
 
                     <div class="row" id="card">
                         <div class="col-3 d-flex justify-content-center">
-                            <div class="contact_icon d-flex align-items-center fa-2x">
+                            <div class="contact_icons d-flex align-items-center fa-2x">
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
                         </div>
@@ -782,7 +783,7 @@
                                 </div>
 
                                 <div class="send_massage mb-5 pt-4">
-                                        <a href="">Send</a>
+                                      <button onclick="send()">Send</button> 
                                 </div>
 
 
@@ -799,7 +800,9 @@
         </div>
     </div>
 
-
+ <button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
     <!-- Whatsapp bot -->
     <div id="myDiv"></div>
@@ -813,6 +816,17 @@
 
     </div>
 
+    	
+    <script src="iziToast-master/js/iziToast.min.js" type="text/javascript"></script>
+
+    <script>
+        function send(){
+            iziToast.success({
+            title: 'Hey',
+            message: 'Your Response Recorded Sucessfully'
+            });
+        }
+    </script>
 
     <!-- Web tittle js -->
     <script src="js/marquee.js"></script>
